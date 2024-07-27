@@ -257,5 +257,5 @@ fn main() {
     me.escape("love");
 
     // EXECUTION
-    world.execute(&me);
+    world.execute(me);
 }

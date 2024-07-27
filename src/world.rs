@@ -144,7 +144,7 @@ impl World {
     pub fn get_god(&self) -> Thing {
         Thing::new_lovable("God", 0, false, 0, false)
     }
-    pub fn execute(&self, _thing: &Thing) {}
+    pub fn execute(&self, _thing: Thing) {}
     pub fn unlock(&self, _thing: &Thing) {}
     pub fn remove_thing(&self, _thing: &Thing) {}
     pub fn make_high(&self, _thing: &Thing) {}
